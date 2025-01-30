@@ -1,0 +1,274 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/.gitignore' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/.gitignore' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=fast_keypoint_detection' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg484-1' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(5)
+WARNING: [HLS 200-40] Skipped source file '.gitignore'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.064 seconds; current allocated memory: 161.973 MB.
+INFO: [HLS 200-10] Analyzing design file 'fast_keypoint_detection.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.804 seconds; current allocated memory: 164.785 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 907 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 428 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 293 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 287 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 286 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,003 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 931 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 931 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 931 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 935 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 935 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 935 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 6,851 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 5,549 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 5,553 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 5,550 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_37_3' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:37:30)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_37_3' (fast_keypoint_detection.cpp:37:30) in function 'fast_keypoint_detection' completely with a factor of 16 (fast_keypoint_detection.cpp:9:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image': Cyclic partitioning with factor 16 on dimension 2. (fast_keypoint_detection.cpp:16:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array 'fast_keypoint_detection(hls::stream<ap_uint<8>, 0>&, hls::stream<Keypoint, 0>&, ap_uint<11>, ap_uint<11>)::image' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_10' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_11' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_12' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_13' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_14' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_15' due to pipeline pragma (fast_keypoint_detection.cpp:32:9)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_9': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_8': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_7': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_6': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_5': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_4': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_3': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_2': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_15': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_14': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_13': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_12': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_11': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_10': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_1': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_0': Cyclic partitioning with factor 7 on dimension 1.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.939 seconds; current allocated memory: 166.965 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 166.965 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.205 seconds; current allocated memory: 181.777 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.589 seconds; current allocated memory: 190.160 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 5.276 seconds; current allocated memory: 217.336 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'image_load'(fast_keypoint_detection.cpp:20:5) and 'VITIS_LOOP_22_1'(fast_keypoint_detection.cpp:22:19) in function 'fast_keypoint_detection' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'keypoint_detection'(fast_keypoint_detection.cpp:30:5) and 'VITIS_LOOP_31_2'(fast_keypoint_detection.cpp:31:26) in function 'fast_keypoint_detection' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'image_load' (fast_keypoint_detection.cpp:20:5) in function 'fast_keypoint_detection'.
+INFO: [XFORM 203-541] Flattening a loop nest 'keypoint_detection' (fast_keypoint_detection.cpp:30:5) in function 'fast_keypoint_detection'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.131 seconds; current allocated memory: 243.664 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fast_keypoint_detection' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fast_keypoint_detection_Pipeline_image_load_VITIS_LOOP_22_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'image_load_VITIS_LOOP_22_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 17, loop 'image_load_VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.153 seconds; current allocated memory: 253.867 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.229 seconds; current allocated memory: 255.008 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fast_keypoint_detection_Pipeline_keypoint_detection_VITIS_LOOP_31_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'keypoint_detection_VITIS_LOOP_31_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 26, loop 'keypoint_detection_VITIS_LOOP_31_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 63 seconds. CPU system time: 1 seconds. Elapsed time: 124.97 seconds; current allocated memory: 321.348 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 7 seconds. CPU system time: 0 seconds. Elapsed time: 21.328 seconds; current allocated memory: 321.348 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fast_keypoint_detection' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.833 seconds; current allocated memory: 321.348 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.142 seconds; current allocated memory: 321.348 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fast_keypoint_detection_Pipeline_image_load_VITIS_LOOP_22_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fast_keypoint_detection_Pipeline_image_load_VITIS_LOOP_22_1' pipeline 'image_load_VITIS_LOOP_22_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_11ns_13ns_23_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_11ns_4ns_3_15_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fast_keypoint_detection_Pipeline_image_load_VITIS_LOOP_22_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.363 seconds; current allocated memory: 321.348 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fast_keypoint_detection_Pipeline_keypoint_detection_VITIS_LOOP_31_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fast_keypoint_detection_Pipeline_keypoint_detection_VITIS_LOOP_31_2' pipeline 'keypoint_detection_VITIS_LOOP_31_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_11ns_13ns_23_1_1': 7 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_15_3_8_1_1': 112 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_8_1_1': 17 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_11ns_4ns_3_15_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fast_keypoint_detection_Pipeline_keypoint_detection_VITIS_LOOP_31_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.406 seconds; current allocated memory: 351.484 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fast_keypoint_detection' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/input_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/keypoint_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/height' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/width' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fast_keypoint_detection' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_104_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_105_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoincud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_106_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoindEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_107_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoineOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_108_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinfYi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_99_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoing8j' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_98_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinhbi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_62_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinibs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_61_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinjbC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_60_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinkbM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_59_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinlbW' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_58_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinmb6' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_57_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinncg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_56_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinocq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_55_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinpcA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_54_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinqcK' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_53_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinrcU' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_52_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinsc4' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_51_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypointde' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_50_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinudo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_49_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinvdy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_48_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinwdI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_47_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinxdS' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_46_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinyd2' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_45_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinzec' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_44_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinAem' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_43_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinBew' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_42_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinCeG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_41_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinDeQ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_40_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinEe0' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_39_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinFfa' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_38_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinGfk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_37_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinHfu' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_36_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinIfE' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_35_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinJfO' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_34_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinKfY' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_33_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinLf8' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_32_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinMgi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_31_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinNgs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_30_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinOgC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_29_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinPgM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_28_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinQgW' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_27_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinRg6' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_26_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinShg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_25_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinThq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_24_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinUhA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_23_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinVhK' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_22_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinWhU' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_21_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinXh4' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_20_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinYie' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_19_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinZio' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_18_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin0iy' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_17_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin1iI' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_16_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin2iS' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_15_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin3i2' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_14_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin4jc' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_13_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin5jm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_12_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin6jw' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_11_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin7jG' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_10_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin8jQ' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_9_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoin9j0' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_8_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbak' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_7_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbbk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_6_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbck' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_5_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbdk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_4_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbek' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_3_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbfk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_2_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbgk' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_1_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbhl' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbil' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_97_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbjl' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_96_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbkl' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_95_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbll' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_94_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbml' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_93_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbnm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_92_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbom' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_91_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbpm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_90_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbqm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_89_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbrm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_88_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbsm' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_87_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbtn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_86_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbun' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_85_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbvn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_84_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbwn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_6_RAM_AUTO_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_6_RAM_AUTO_bxn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_5_RAM_AUTO_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_5_RAM_AUTO_byn' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_4_RAM_AUTO_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_4_RAM_AUTO_bzo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_3_RAM_AUTO_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_3_RAM_AUTO_bAo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_2_RAM_AUTO_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_2_RAM_AUTO_bBo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_1_RAM_AUTO_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_image_1_RAM_AUTO_bCo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_83_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbDo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_82_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbEo' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_81_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbFp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_80_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbGp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_79_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbHp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_78_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbIp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_77_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbJp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_76_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbKp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_75_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbLp' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_74_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbMq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_73_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbNq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_72_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbOq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_71_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbPq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_70_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbQq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_69_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbRq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_68_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbSr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_67_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbTr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_66_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbUr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_65_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbVr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_64_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbWr' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0_63_RAM_AUTO_1R1W' to 'p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypoinbXr' due to the length limit 80
+INFO: [RTGEN 206-100] Bundling port 'height' and 'width' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'mul_11ns_11ns_22_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_12ns_12ns_24_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fast_keypoint_detection'.
+INFO: [RTMG 210-278] Implementing memory 'fast_keypoint_detection_p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbkb' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 18.179 seconds; current allocated memory: 426.477 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.035 seconds; current allocated memory: 429.121 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.234 seconds; current allocated memory: 440.832 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fast_keypoint_detection.
+INFO: [VLOG 209-307] Generating Verilog RTL for fast_keypoint_detection.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 137.95 MHz
+INFO: [HLS 200-112] Total CPU user time: 77 seconds. Total CPU system time: 3 seconds. Total elapsed time: 199.717 seconds; peak allocated memory: 440.938 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 3m 23s

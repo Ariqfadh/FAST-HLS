@@ -1,0 +1,158 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\fast_keypoint_detection.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/30/25 16:09:04",
+ "timestampMillis": "1738228144402",
+ "buildStep": {
+  "cmdId": "984e864d-541a-47c4-b509-2848153cf3fe",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\logs\\fast_keypoint_detection.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\hls_config.cfg --work_dir fast_keypoint_detection ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\hls_config.cfg",
+   "--work_dir",
+   "fast_keypoint_detection"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/30/25 16:09:04",
+ "timestampMillis": "1738228144402",
+ "status": {
+  "cmdId": "984e864d-541a-47c4-b509-2848153cf3fe",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/30/25 16:09:07",
+ "timestampMillis": "1738228147909",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fast_keypoint_detection",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\.gitignore",
+     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection.cpp",
+     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/30/25 16:09:07",
+ "timestampMillis": "1738228147911",
+ "buildStep": {
+  "cmdId": "fc437e42-424d-4ad3-824a-4f3f8489d227",
+  "name": "",
+  "logFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/30/25 16:09:07",
+ "timestampMillis": "1738228147911",
+ "status": {
+  "cmdId": "fc437e42-424d-4ad3-824a-4f3f8489d227",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/30/25 16:10:31",
+ "timestampMillis": "1738228231411",
+ "status": {
+  "cmdId": "fc437e42-424d-4ad3-824a-4f3f8489d227",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/30/25 16:10:31",
+ "timestampMillis": "1738228231511",
+ "status": {
+  "cmdId": "984e864d-541a-47c4-b509-2848153cf3fe",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/30/25 16:10:31",
+ "timestampMillis": "1738228231511",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/30/25 16:10:31",
+ "timestampMillis": "1738228231511",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

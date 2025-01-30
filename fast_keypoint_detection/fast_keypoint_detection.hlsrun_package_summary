@@ -1,0 +1,158 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\fast_keypoint_detection.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/23/25 09:38:10",
+ "timestampMillis": "1737599890903",
+ "buildStep": {
+  "cmdId": "06a55bd2-fe68-4223-945b-7bb17e25a31f",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\logs\\fast_keypoint_detection.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\hls_config.cfg --work_dir fast_keypoint_detection ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\hls_config.cfg",
+   "--work_dir",
+   "fast_keypoint_detection"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/23/25 09:38:10",
+ "timestampMillis": "1737599890903",
+ "status": {
+  "cmdId": "06a55bd2-fe68-4223-945b-7bb17e25a31f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/23/25 09:38:18",
+ "timestampMillis": "1737599898029",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fast_keypoint_detection",
+     "file": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\fast_keypoint_detection.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\.gitignore",
+     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection.cpp",
+     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/23/25 09:38:18",
+ "timestampMillis": "1737599898033",
+ "buildStep": {
+  "cmdId": "ba899d94-6b5b-4fc0-8e2f-c04a91c8806b",
+  "name": "",
+  "logFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/23/25 09:38:18",
+ "timestampMillis": "1737599898034",
+ "status": {
+  "cmdId": "ba899d94-6b5b-4fc0-8e2f-c04a91c8806b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/23/25 09:38:44",
+ "timestampMillis": "1737599924991",
+ "status": {
+  "cmdId": "ba899d94-6b5b-4fc0-8e2f-c04a91c8806b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/23/25 09:38:45",
+ "timestampMillis": "1737599925165",
+ "status": {
+  "cmdId": "06a55bd2-fe68-4223-945b-7bb17e25a31f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/23/25 09:38:45",
+ "timestampMillis": "1737599925166",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/23/25 09:38:45",
+ "timestampMillis": "1737599925167",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

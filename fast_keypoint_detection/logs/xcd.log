@@ -1,0 +1,398 @@
+01/23/25 09:12:41: Running xcd server. This server was built by gradle.
+01/23/25 09:12:41: Server was asked to start on port: '59956'
+01/23/25 09:12:41: Server is using token UUID: '52f0f590-66c9-411d-b0b1-81a7a32c0d2b'
+01/23/25 09:12:41: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:12:41: Attempting to start server on port '59956'
+01/23/25 09:12:41: Running Dispatch Server
+01/23/25 09:12:41: Version 2.2.0
+01/23/25 09:12:42: Dispatch Server: Accepted socket connection from client
+01/23/25 09:12:42: Starting Socket connection
+01/23/25 09:12:42: EXCHANGE_TOKEN received, server token: 52f0f590-66c9-411d-b0b1-81a7a32c0d2b, passed token: 52f0f590-66c9-411d-b0b1-81a7a32c0d2b
+01/23/25 09:12:43: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:12:43: SESSION_MGR: creating session with session uuid: '1f16073c-7a3f-4778-ae4d-f87d46c7d516' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:43: KERNEL_SVC: creating session with uuid: '1f16073c-7a3f-4778-ae4d-f87d46c7d516' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:43: GUIDANCE_SMGR: creating guidance session with uuid: '1f16073c-7a3f-4778-ae4d-f87d46c7d516' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:43: SYSTEM_DIAGRAM: creating session with uuid: '1f16073c-7a3f-4778-ae4d-f87d46c7d516' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:49: SESSION_MGR: closing session for UUID '1f16073c-7a3f-4778-ae4d-f87d46c7d516' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:49: KERNEL_SVC: closing session for UUID '1f16073c-7a3f-4778-ae4d-f87d46c7d516' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:49: GUIDANCE_SMGR: closing session for UUID '1f16073c-7a3f-4778-ae4d-f87d46c7d516' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:49: SYSTEM_DIAGRAM: closing session for UUID '1f16073c-7a3f-4778-ae4d-f87d46c7d516' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:12:49: STOP_SERVER received, server token: 52f0f590-66c9-411d-b0b1-81a7a32c0d2b, passed token: 52f0f590-66c9-411d-b0b1-81a7a32c0d2b
+01/23/25 09:12:49: Socket received request to stop server.
+01/23/25 09:12:49: Dispatch Server: do_await_stop
+01/23/25 09:12:49: SERVER: destructor for server bound to port 59956
+01/23/25 09:14:45: Running xcd server. This server was built by gradle.
+01/23/25 09:14:45: Server was asked to start on port: '59786'
+01/23/25 09:14:45: Server is using token UUID: '9ea82fa6-dd40-41d2-83c7-2925081b9e46'
+01/23/25 09:14:45: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:14:45: Attempting to start server on port '59786'
+01/23/25 09:14:45: Running Dispatch Server
+01/23/25 09:14:45: Version 2.2.0
+01/23/25 09:14:47: Dispatch Server: Accepted socket connection from client
+01/23/25 09:14:47: Starting Socket connection
+01/23/25 09:14:47: EXCHANGE_TOKEN received, server token: 9ea82fa6-dd40-41d2-83c7-2925081b9e46, passed token: 9ea82fa6-dd40-41d2-83c7-2925081b9e46
+01/23/25 09:14:47: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:14:47: SESSION_MGR: creating session with session uuid: '856e544a-f6aa-49ab-b252-1fbdca554ace' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:14:47: KERNEL_SVC: creating session with uuid: '856e544a-f6aa-49ab-b252-1fbdca554ace' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:14:47: GUIDANCE_SMGR: creating guidance session with uuid: '856e544a-f6aa-49ab-b252-1fbdca554ace' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:14:47: SYSTEM_DIAGRAM: creating session with uuid: '856e544a-f6aa-49ab-b252-1fbdca554ace' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:14:50: Dispatch Server: Accepted socket connection from client
+01/23/25 09:14:50: Starting Socket connection
+01/23/25 09:15:06: SESSION_MGR: closing session for UUID '856e544a-f6aa-49ab-b252-1fbdca554ace' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:15:06: KERNEL_SVC: closing session for UUID '856e544a-f6aa-49ab-b252-1fbdca554ace' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:15:06: GUIDANCE_SMGR: closing session for UUID '856e544a-f6aa-49ab-b252-1fbdca554ace' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:15:06: SYSTEM_DIAGRAM: closing session for UUID '856e544a-f6aa-49ab-b252-1fbdca554ace' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:15:06: STOP_SERVER received, server token: 9ea82fa6-dd40-41d2-83c7-2925081b9e46, passed token: 9ea82fa6-dd40-41d2-83c7-2925081b9e46
+01/23/25 09:15:06: Socket received request to stop server.
+01/23/25 09:15:06: Dispatch Server: do_await_stop
+01/23/25 09:15:06: SERVER: destructor for server bound to port 59786
+01/23/25 09:15:39: Running xcd server. This server was built by gradle.
+01/23/25 09:15:39: Server was asked to start on port: '59792'
+01/23/25 09:15:39: Server is using token UUID: '0f9e1bd2-afa7-4f3a-ac44-79167dbece30'
+01/23/25 09:15:39: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:15:39: Attempting to start server on port '59792'
+01/23/25 09:15:39: Running Dispatch Server
+01/23/25 09:15:39: Version 2.2.0
+01/23/25 09:15:40: Dispatch Server: Accepted socket connection from client
+01/23/25 09:15:40: Starting Socket connection
+01/23/25 09:15:40: EXCHANGE_TOKEN received, server token: 0f9e1bd2-afa7-4f3a-ac44-79167dbece30, passed token: 0f9e1bd2-afa7-4f3a-ac44-79167dbece30
+01/23/25 09:15:41: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:15:41: SESSION_MGR: creating session with session uuid: '085ff323-6401-46ef-b7a8-926cb3f7e37a' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:15:41: KERNEL_SVC: creating session with uuid: '085ff323-6401-46ef-b7a8-926cb3f7e37a' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:15:41: GUIDANCE_SMGR: creating guidance session with uuid: '085ff323-6401-46ef-b7a8-926cb3f7e37a' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:15:41: SYSTEM_DIAGRAM: creating session with uuid: '085ff323-6401-46ef-b7a8-926cb3f7e37a' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:15:44: Dispatch Server: Accepted socket connection from client
+01/23/25 09:15:44: Starting Socket connection
+01/23/25 09:19:54: SESSION_MGR: closing session for UUID '085ff323-6401-46ef-b7a8-926cb3f7e37a' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:19:54: KERNEL_SVC: closing session for UUID '085ff323-6401-46ef-b7a8-926cb3f7e37a' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:19:54: GUIDANCE_SMGR: closing session for UUID '085ff323-6401-46ef-b7a8-926cb3f7e37a' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:19:54: SYSTEM_DIAGRAM: closing session for UUID '085ff323-6401-46ef-b7a8-926cb3f7e37a' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:19:54: STOP_SERVER received, server token: 0f9e1bd2-afa7-4f3a-ac44-79167dbece30, passed token: 0f9e1bd2-afa7-4f3a-ac44-79167dbece30
+01/23/25 09:19:54: Socket received request to stop server.
+01/23/25 09:19:54: Dispatch Server: do_await_stop
+01/23/25 09:19:54: SERVER: destructor for server bound to port 59792
+01/23/25 09:20:03: Running xcd server. This server was built by gradle.
+01/23/25 09:20:03: Server was asked to start on port: '59827'
+01/23/25 09:20:03: Server is using token UUID: '128f63e3-1c92-4c19-9e46-0ec05019e154'
+01/23/25 09:20:03: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:20:03: Attempting to start server on port '59827'
+01/23/25 09:20:03: Running Dispatch Server
+01/23/25 09:20:03: Version 2.2.0
+01/23/25 09:20:05: Dispatch Server: Accepted socket connection from client
+01/23/25 09:20:05: Starting Socket connection
+01/23/25 09:20:05: EXCHANGE_TOKEN received, server token: 128f63e3-1c92-4c19-9e46-0ec05019e154, passed token: 128f63e3-1c92-4c19-9e46-0ec05019e154
+01/23/25 09:20:05: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:20:05: SESSION_MGR: creating session with session uuid: 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:05: KERNEL_SVC: creating session with uuid: 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:05: GUIDANCE_SMGR: creating guidance session with uuid: 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:05: SYSTEM_DIAGRAM: creating session with uuid: 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:08: Dispatch Server: Accepted socket connection from client
+01/23/25 09:20:08: Starting Socket connection
+01/23/25 09:20:11: SESSION_MGR: closing session for UUID 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:11: KERNEL_SVC: closing session for UUID 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:11: GUIDANCE_SMGR: closing session for UUID 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:11: SYSTEM_DIAGRAM: closing session for UUID 'e6af6356-61ab-4f26-a893-c3d2e72e92fb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:11: STOP_SERVER received, server token: 128f63e3-1c92-4c19-9e46-0ec05019e154, passed token: 128f63e3-1c92-4c19-9e46-0ec05019e154
+01/23/25 09:20:11: Socket received request to stop server.
+01/23/25 09:20:11: Dispatch Server: do_await_stop
+01/23/25 09:20:11: SERVER: destructor for server bound to port 59827
+01/23/25 09:20:42: Running xcd server. This server was built by gradle.
+01/23/25 09:20:42: Server was asked to start on port: '59830'
+01/23/25 09:20:42: Server is using token UUID: 'fd50336c-f972-45c8-a269-b407f5ab859b'
+01/23/25 09:20:42: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:20:42: Attempting to start server on port '59830'
+01/23/25 09:20:42: Running Dispatch Server
+01/23/25 09:20:42: Version 2.2.0
+01/23/25 09:20:44: Dispatch Server: Accepted socket connection from client
+01/23/25 09:20:44: Starting Socket connection
+01/23/25 09:20:44: EXCHANGE_TOKEN received, server token: fd50336c-f972-45c8-a269-b407f5ab859b, passed token: fd50336c-f972-45c8-a269-b407f5ab859b
+01/23/25 09:20:44: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:20:44: SESSION_MGR: creating session with session uuid: 'a6d57750-7ad0-4572-8416-7a8729a253f0' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:44: KERNEL_SVC: creating session with uuid: 'a6d57750-7ad0-4572-8416-7a8729a253f0' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:44: GUIDANCE_SMGR: creating guidance session with uuid: 'a6d57750-7ad0-4572-8416-7a8729a253f0' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:44: SYSTEM_DIAGRAM: creating session with uuid: 'a6d57750-7ad0-4572-8416-7a8729a253f0' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:48: Dispatch Server: Accepted socket connection from client
+01/23/25 09:20:48: Starting Socket connection
+01/23/25 09:20:50: SESSION_MGR: closing session for UUID 'a6d57750-7ad0-4572-8416-7a8729a253f0' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:50: KERNEL_SVC: closing session for UUID 'a6d57750-7ad0-4572-8416-7a8729a253f0' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:50: GUIDANCE_SMGR: closing session for UUID 'a6d57750-7ad0-4572-8416-7a8729a253f0' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:50: SYSTEM_DIAGRAM: closing session for UUID 'a6d57750-7ad0-4572-8416-7a8729a253f0' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:20:50: STOP_SERVER received, server token: fd50336c-f972-45c8-a269-b407f5ab859b, passed token: fd50336c-f972-45c8-a269-b407f5ab859b
+01/23/25 09:20:50: Socket received request to stop server.
+01/23/25 09:20:50: Dispatch Server: do_await_stop
+01/23/25 09:20:50: SERVER: destructor for server bound to port 59830
+01/23/25 09:22:31: Running xcd server. This server was built by gradle.
+01/23/25 09:22:31: Server was asked to start on port: '59838'
+01/23/25 09:22:31: Server is using token UUID: '0b33acce-9bf6-4a91-80fc-39b33ce0abb2'
+01/23/25 09:22:31: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:22:31: Attempting to start server on port '59838'
+01/23/25 09:22:31: Running Dispatch Server
+01/23/25 09:22:31: Version 2.2.0
+01/23/25 09:22:33: Dispatch Server: Accepted socket connection from client
+01/23/25 09:22:33: Starting Socket connection
+01/23/25 09:22:33: EXCHANGE_TOKEN received, server token: 0b33acce-9bf6-4a91-80fc-39b33ce0abb2, passed token: 0b33acce-9bf6-4a91-80fc-39b33ce0abb2
+01/23/25 09:22:33: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:22:33: SESSION_MGR: creating session with session uuid: '85faf65f-1780-4060-8781-a2cdb92088cb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:33: KERNEL_SVC: creating session with uuid: '85faf65f-1780-4060-8781-a2cdb92088cb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:33: GUIDANCE_SMGR: creating guidance session with uuid: '85faf65f-1780-4060-8781-a2cdb92088cb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:33: SYSTEM_DIAGRAM: creating session with uuid: '85faf65f-1780-4060-8781-a2cdb92088cb' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:37: Dispatch Server: Accepted socket connection from client
+01/23/25 09:22:37: Starting Socket connection
+01/23/25 09:22:47: SESSION_MGR: closing session for UUID '85faf65f-1780-4060-8781-a2cdb92088cb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:47: KERNEL_SVC: closing session for UUID '85faf65f-1780-4060-8781-a2cdb92088cb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:47: GUIDANCE_SMGR: closing session for UUID '85faf65f-1780-4060-8781-a2cdb92088cb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:47: SYSTEM_DIAGRAM: closing session for UUID '85faf65f-1780-4060-8781-a2cdb92088cb' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:22:47: STOP_SERVER received, server token: 0b33acce-9bf6-4a91-80fc-39b33ce0abb2, passed token: 0b33acce-9bf6-4a91-80fc-39b33ce0abb2
+01/23/25 09:22:47: Socket received request to stop server.
+01/23/25 09:22:47: Dispatch Server: do_await_stop
+01/23/25 09:22:47: SERVER: destructor for server bound to port 59838
+01/23/25 09:22:52: Running xcd server. This server was built by gradle.
+01/23/25 09:22:52: Server was asked to start on port: '59841'
+01/23/25 09:22:52: Server is using token UUID: '1457a346-243a-4ce6-acc8-8793371da5e7'
+01/23/25 09:22:52: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:22:52: Attempting to start server on port '59841'
+01/23/25 09:22:52: Running Dispatch Server
+01/23/25 09:22:52: Version 2.2.0
+01/23/25 09:22:54: Dispatch Server: Accepted socket connection from client
+01/23/25 09:22:54: Starting Socket connection
+01/23/25 09:22:54: EXCHANGE_TOKEN received, server token: 1457a346-243a-4ce6-acc8-8793371da5e7, passed token: 1457a346-243a-4ce6-acc8-8793371da5e7
+01/23/25 09:22:54: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:22:54: SESSION_MGR: creating session with session uuid: '754b6998-55c1-43ea-a794-d6b0c2f5662c' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:22:54: KERNEL_SVC: creating session with uuid: '754b6998-55c1-43ea-a794-d6b0c2f5662c' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:22:54: GUIDANCE_SMGR: creating guidance session with uuid: '754b6998-55c1-43ea-a794-d6b0c2f5662c' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:22:54: SYSTEM_DIAGRAM: creating session with uuid: '754b6998-55c1-43ea-a794-d6b0c2f5662c' and name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:22:58: Dispatch Server: Accepted socket connection from client
+01/23/25 09:22:58: Starting Socket connection
+01/23/25 09:28:19: SESSION_MGR: closing session for UUID '754b6998-55c1-43ea-a794-d6b0c2f5662c' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:28:19: KERNEL_SVC: closing session for UUID '754b6998-55c1-43ea-a794-d6b0c2f5662c' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:28:19: GUIDANCE_SMGR: closing session for UUID '754b6998-55c1-43ea-a794-d6b0c2f5662c' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:28:19: SYSTEM_DIAGRAM: closing session for UUID '754b6998-55c1-43ea-a794-d6b0c2f5662c' with name 'v++_compile_fast_keypoint_detection'
+01/23/25 09:28:19: STOP_SERVER received, server token: 1457a346-243a-4ce6-acc8-8793371da5e7, passed token: 1457a346-243a-4ce6-acc8-8793371da5e7
+01/23/25 09:28:19: Socket received request to stop server.
+01/23/25 09:28:19: Dispatch Server: do_await_stop
+01/23/25 09:28:19: SERVER: destructor for server bound to port 59841
+01/23/25 09:28:25: Running xcd server. This server was built by gradle.
+01/23/25 09:28:25: Server was asked to start on port: '59850'
+01/23/25 09:28:25: Server is using token UUID: 'a602b271-2ebd-4863-8f53-cb7f76da8ac6'
+01/23/25 09:28:25: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:28:25: Attempting to start server on port '59850'
+01/23/25 09:28:25: Running Dispatch Server
+01/23/25 09:28:25: Version 2.2.0
+01/23/25 09:28:27: Dispatch Server: Accepted socket connection from client
+01/23/25 09:28:27: Starting Socket connection
+01/23/25 09:28:27: EXCHANGE_TOKEN received, server token: a602b271-2ebd-4863-8f53-cb7f76da8ac6, passed token: a602b271-2ebd-4863-8f53-cb7f76da8ac6
+01/23/25 09:28:27: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:28:27: SESSION_MGR: creating session with session uuid: '4efd2106-e57c-4f2e-a709-67c2ce0d090b' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:28:27: KERNEL_SVC: creating session with uuid: '4efd2106-e57c-4f2e-a709-67c2ce0d090b' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:28:27: GUIDANCE_SMGR: creating guidance session with uuid: '4efd2106-e57c-4f2e-a709-67c2ce0d090b' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:28:27: SYSTEM_DIAGRAM: creating session with uuid: '4efd2106-e57c-4f2e-a709-67c2ce0d090b' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:28:30: Dispatch Server: Accepted socket connection from client
+01/23/25 09:28:30: Starting Socket connection
+01/23/25 09:36:38: SESSION_MGR: closing session for UUID '4efd2106-e57c-4f2e-a709-67c2ce0d090b' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:36:38: KERNEL_SVC: closing session for UUID '4efd2106-e57c-4f2e-a709-67c2ce0d090b' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:36:38: GUIDANCE_SMGR: closing session for UUID '4efd2106-e57c-4f2e-a709-67c2ce0d090b' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:36:38: SYSTEM_DIAGRAM: closing session for UUID '4efd2106-e57c-4f2e-a709-67c2ce0d090b' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:36:38: STOP_SERVER received, server token: a602b271-2ebd-4863-8f53-cb7f76da8ac6, passed token: a602b271-2ebd-4863-8f53-cb7f76da8ac6
+01/23/25 09:36:38: Socket received request to stop server.
+01/23/25 09:36:39: Dispatch Server: do_await_stop
+01/23/25 09:36:39: SERVER: destructor for server bound to port 59850
+01/23/25 09:38:09: Running xcd server. This server was built by gradle.
+01/23/25 09:38:09: Server was asked to start on port: '59879'
+01/23/25 09:38:09: Server is using token UUID: '43c600b1-dcf2-412b-87a0-dbddc855e05c'
+01/23/25 09:38:09: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/23/25 09:38:09: Attempting to start server on port '59879'
+01/23/25 09:38:09: Running Dispatch Server
+01/23/25 09:38:09: Version 2.2.0
+01/23/25 09:38:10: Dispatch Server: Accepted socket connection from client
+01/23/25 09:38:10: Starting Socket connection
+01/23/25 09:38:10: EXCHANGE_TOKEN received, server token: 43c600b1-dcf2-412b-87a0-dbddc855e05c, passed token: 43c600b1-dcf2-412b-87a0-dbddc855e05c
+01/23/25 09:38:11: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/23/25 09:38:11: SESSION_MGR: creating session with session uuid: '251ad526-185e-4e2a-945e-d4fb326140d9' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:11: KERNEL_SVC: creating session with uuid: '251ad526-185e-4e2a-945e-d4fb326140d9' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:11: GUIDANCE_SMGR: creating guidance session with uuid: '251ad526-185e-4e2a-945e-d4fb326140d9' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:11: SYSTEM_DIAGRAM: creating session with uuid: '251ad526-185e-4e2a-945e-d4fb326140d9' and name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:18: Dispatch Server: Accepted socket connection from client
+01/23/25 09:38:18: Starting Socket connection
+01/23/25 09:38:45: SESSION_MGR: closing session for UUID '251ad526-185e-4e2a-945e-d4fb326140d9' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:45: KERNEL_SVC: closing session for UUID '251ad526-185e-4e2a-945e-d4fb326140d9' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:45: GUIDANCE_SMGR: closing session for UUID '251ad526-185e-4e2a-945e-d4fb326140d9' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:45: SYSTEM_DIAGRAM: closing session for UUID '251ad526-185e-4e2a-945e-d4fb326140d9' with name 'vitis-run_compile_fast_keypoint_detection'
+01/23/25 09:38:45: STOP_SERVER received, server token: 43c600b1-dcf2-412b-87a0-dbddc855e05c, passed token: 43c600b1-dcf2-412b-87a0-dbddc855e05c
+01/23/25 09:38:45: Socket received request to stop server.
+01/23/25 09:38:45: Dispatch Server: do_await_stop
+01/23/25 09:38:45: SERVER: destructor for server bound to port 59879
+01/30/25 10:09:04: Running xcd server. This server was built by gradle.
+01/30/25 10:09:04: Server was asked to start on port: '59152'
+01/30/25 10:09:04: Server is using token UUID: '5644570f-e400-4203-9925-d115ad828563'
+01/30/25 10:09:04: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 10:09:04: Attempting to start server on port '59152'
+01/30/25 10:09:04: Running Dispatch Server
+01/30/25 10:09:04: Version 2.2.0
+01/30/25 10:09:06: Dispatch Server: Accepted socket connection from client
+01/30/25 10:09:06: Starting Socket connection
+01/30/25 10:09:06: EXCHANGE_TOKEN received, server token: 5644570f-e400-4203-9925-d115ad828563, passed token: 5644570f-e400-4203-9925-d115ad828563
+01/30/25 10:09:06: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 10:09:06: SESSION_MGR: creating session with session uuid: 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:06: KERNEL_SVC: creating session with uuid: 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:06: GUIDANCE_SMGR: creating guidance session with uuid: 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:06: SYSTEM_DIAGRAM: creating session with uuid: 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:09: Dispatch Server: Accepted socket connection from client
+01/30/25 10:09:09: Starting Socket connection
+01/30/25 10:09:15: SESSION_MGR: closing session for UUID 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:15: KERNEL_SVC: closing session for UUID 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:15: GUIDANCE_SMGR: closing session for UUID 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:15: SYSTEM_DIAGRAM: closing session for UUID 'f3e29b7a-7fca-42e3-a657-dee4d8a7b6a2' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 10:09:15: STOP_SERVER received, server token: 5644570f-e400-4203-9925-d115ad828563, passed token: 5644570f-e400-4203-9925-d115ad828563
+01/30/25 10:09:15: Socket received request to stop server.
+01/30/25 10:09:15: Dispatch Server: do_await_stop
+01/30/25 10:09:15: SERVER: destructor for server bound to port 59152
+01/30/25 10:09:30: Running xcd server. This server was built by gradle.
+01/30/25 10:09:30: Server was asked to start on port: '50970'
+01/30/25 10:09:30: Server is using token UUID: '480dc5e7-30cc-4be4-8c9f-3860eff0381b'
+01/30/25 10:09:30: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 10:09:30: Attempting to start server on port '50970'
+01/30/25 10:09:30: Running Dispatch Server
+01/30/25 10:09:30: Version 2.2.0
+01/30/25 10:09:32: Dispatch Server: Accepted socket connection from client
+01/30/25 10:09:32: Starting Socket connection
+01/30/25 10:09:32: EXCHANGE_TOKEN received, server token: 480dc5e7-30cc-4be4-8c9f-3860eff0381b, passed token: 480dc5e7-30cc-4be4-8c9f-3860eff0381b
+01/30/25 10:09:32: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 10:09:32: SESSION_MGR: creating session with session uuid: '9bfdc74c-b381-4372-9787-e4c96a8a682a' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:09:32: KERNEL_SVC: creating session with uuid: '9bfdc74c-b381-4372-9787-e4c96a8a682a' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:09:32: GUIDANCE_SMGR: creating guidance session with uuid: '9bfdc74c-b381-4372-9787-e4c96a8a682a' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:09:32: SYSTEM_DIAGRAM: creating session with uuid: '9bfdc74c-b381-4372-9787-e4c96a8a682a' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:09:35: Dispatch Server: Accepted socket connection from client
+01/30/25 10:09:35: Starting Socket connection
+01/30/25 10:12:53: SESSION_MGR: closing session for UUID '9bfdc74c-b381-4372-9787-e4c96a8a682a' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:12:53: KERNEL_SVC: closing session for UUID '9bfdc74c-b381-4372-9787-e4c96a8a682a' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:12:53: GUIDANCE_SMGR: closing session for UUID '9bfdc74c-b381-4372-9787-e4c96a8a682a' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:12:53: SYSTEM_DIAGRAM: closing session for UUID '9bfdc74c-b381-4372-9787-e4c96a8a682a' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 10:12:53: STOP_SERVER received, server token: 480dc5e7-30cc-4be4-8c9f-3860eff0381b, passed token: 480dc5e7-30cc-4be4-8c9f-3860eff0381b
+01/30/25 10:12:53: Socket received request to stop server.
+01/30/25 10:12:53: Dispatch Server: do_await_stop
+01/30/25 10:12:53: SERVER: destructor for server bound to port 50970
+01/30/25 13:40:23: Running xcd server. This server was built by gradle.
+01/30/25 13:40:23: Server was asked to start on port: '49650'
+01/30/25 13:40:23: Server is using token UUID: 'c228c4ec-2ebe-44dd-8295-44cacb2a5603'
+01/30/25 13:40:23: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 13:40:23: Attempting to start server on port '49650'
+01/30/25 13:40:23: Running Dispatch Server
+01/30/25 13:40:23: Version 2.2.0
+01/30/25 13:40:25: Dispatch Server: Accepted socket connection from client
+01/30/25 13:40:25: Starting Socket connection
+01/30/25 13:40:25: EXCHANGE_TOKEN received, server token: c228c4ec-2ebe-44dd-8295-44cacb2a5603, passed token: c228c4ec-2ebe-44dd-8295-44cacb2a5603
+01/30/25 13:40:25: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 13:40:25: SESSION_MGR: creating session with session uuid: '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:25: KERNEL_SVC: creating session with uuid: '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:25: GUIDANCE_SMGR: creating guidance session with uuid: '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:25: SYSTEM_DIAGRAM: creating session with uuid: '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:29: Dispatch Server: Accepted socket connection from client
+01/30/25 13:40:29: Starting Socket connection
+01/30/25 13:40:36: SESSION_MGR: closing session for UUID '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:36: KERNEL_SVC: closing session for UUID '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:36: GUIDANCE_SMGR: closing session for UUID '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:36: SYSTEM_DIAGRAM: closing session for UUID '91ecbfe9-cb03-466a-9c8b-9f5c32c029d4' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 13:40:36: STOP_SERVER received, server token: c228c4ec-2ebe-44dd-8295-44cacb2a5603, passed token: c228c4ec-2ebe-44dd-8295-44cacb2a5603
+01/30/25 13:40:36: Socket received request to stop server.
+01/30/25 13:40:36: Dispatch Server: do_await_stop
+01/30/25 13:40:36: SERVER: destructor for server bound to port 49650
+01/30/25 15:54:11: Running xcd server. This server was built by gradle.
+01/30/25 15:54:11: Server was asked to start on port: '51935'
+01/30/25 15:54:11: Server is using token UUID: '8333a064-dfba-4a5f-aa48-e37b499c0c40'
+01/30/25 15:54:11: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 15:54:11: Attempting to start server on port '51935'
+01/30/25 15:54:11: Running Dispatch Server
+01/30/25 15:54:11: Version 2.2.0
+01/30/25 15:54:13: Dispatch Server: Accepted socket connection from client
+01/30/25 15:54:13: Starting Socket connection
+01/30/25 15:54:13: EXCHANGE_TOKEN received, server token: 8333a064-dfba-4a5f-aa48-e37b499c0c40, passed token: 8333a064-dfba-4a5f-aa48-e37b499c0c40
+01/30/25 15:54:13: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 15:54:13: SESSION_MGR: creating session with session uuid: 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:13: KERNEL_SVC: creating session with uuid: 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:13: GUIDANCE_SMGR: creating guidance session with uuid: 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:13: SYSTEM_DIAGRAM: creating session with uuid: 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:17: Dispatch Server: Accepted socket connection from client
+01/30/25 15:54:17: Starting Socket connection
+01/30/25 15:54:28: SESSION_MGR: closing session for UUID 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:28: KERNEL_SVC: closing session for UUID 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:28: GUIDANCE_SMGR: closing session for UUID 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:28: SYSTEM_DIAGRAM: closing session for UUID 'fd91bf7c-42aa-49f3-81ff-d5405b01261a' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 15:54:28: STOP_SERVER received, server token: 8333a064-dfba-4a5f-aa48-e37b499c0c40, passed token: 8333a064-dfba-4a5f-aa48-e37b499c0c40
+01/30/25 15:54:28: Socket received request to stop server.
+01/30/25 15:54:28: Dispatch Server: do_await_stop
+01/30/25 15:54:28: SERVER: destructor for server bound to port 51935
+01/30/25 15:54:35: Running xcd server. This server was built by gradle.
+01/30/25 15:54:35: Server was asked to start on port: '51938'
+01/30/25 15:54:35: Server is using token UUID: 'd686b5eb-2e7c-4ca9-96c6-4be5fae5d026'
+01/30/25 15:54:35: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 15:54:35: Attempting to start server on port '51938'
+01/30/25 15:54:35: Running Dispatch Server
+01/30/25 15:54:35: Version 2.2.0
+01/30/25 15:54:37: Dispatch Server: Accepted socket connection from client
+01/30/25 15:54:37: Starting Socket connection
+01/30/25 15:54:37: EXCHANGE_TOKEN received, server token: d686b5eb-2e7c-4ca9-96c6-4be5fae5d026, passed token: d686b5eb-2e7c-4ca9-96c6-4be5fae5d026
+01/30/25 15:54:38: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 15:54:38: SESSION_MGR: creating session with session uuid: 'b763a846-387c-4447-9506-4e70f7769aa6' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:54:38: KERNEL_SVC: creating session with uuid: 'b763a846-387c-4447-9506-4e70f7769aa6' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:54:38: GUIDANCE_SMGR: creating guidance session with uuid: 'b763a846-387c-4447-9506-4e70f7769aa6' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:54:38: SYSTEM_DIAGRAM: creating session with uuid: 'b763a846-387c-4447-9506-4e70f7769aa6' and name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:54:41: Dispatch Server: Accepted socket connection from client
+01/30/25 15:54:41: Starting Socket connection
+01/30/25 15:57:24: SESSION_MGR: closing session for UUID 'b763a846-387c-4447-9506-4e70f7769aa6' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:57:24: KERNEL_SVC: closing session for UUID 'b763a846-387c-4447-9506-4e70f7769aa6' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:57:24: GUIDANCE_SMGR: closing session for UUID 'b763a846-387c-4447-9506-4e70f7769aa6' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:57:24: SYSTEM_DIAGRAM: closing session for UUID 'b763a846-387c-4447-9506-4e70f7769aa6' with name 'v++_compile_fast_keypoint_detection'
+01/30/25 15:57:24: STOP_SERVER received, server token: d686b5eb-2e7c-4ca9-96c6-4be5fae5d026, passed token: d686b5eb-2e7c-4ca9-96c6-4be5fae5d026
+01/30/25 15:57:24: Socket received request to stop server.
+01/30/25 15:57:24: Dispatch Server: do_await_stop
+01/30/25 15:57:24: SERVER: destructor for server bound to port 51938
+01/30/25 16:08:38: Running xcd server. This server was built by gradle.
+01/30/25 16:08:38: Server was asked to start on port: '60669'
+01/30/25 16:08:38: Server is using token UUID: '1437e92b-f88a-49fa-8435-99005278b39a'
+01/30/25 16:08:38: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 16:08:38: Attempting to start server on port '60669'
+01/30/25 16:08:38: Running Dispatch Server
+01/30/25 16:08:38: Version 2.2.0
+01/30/25 16:08:40: Dispatch Server: Accepted socket connection from client
+01/30/25 16:08:40: Starting Socket connection
+01/30/25 16:08:40: EXCHANGE_TOKEN received, server token: 1437e92b-f88a-49fa-8435-99005278b39a, passed token: 1437e92b-f88a-49fa-8435-99005278b39a
+01/30/25 16:08:40: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 16:08:40: SESSION_MGR: creating session with session uuid: 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:40: KERNEL_SVC: creating session with uuid: 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:40: GUIDANCE_SMGR: creating guidance session with uuid: 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:40: SYSTEM_DIAGRAM: creating session with uuid: 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:44: Dispatch Server: Accepted socket connection from client
+01/30/25 16:08:44: Starting Socket connection
+01/30/25 16:08:51: SESSION_MGR: closing session for UUID 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:51: KERNEL_SVC: closing session for UUID 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:51: GUIDANCE_SMGR: closing session for UUID 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:51: SYSTEM_DIAGRAM: closing session for UUID 'ede60dc3-d04d-4ed7-be33-668f44ce7f57' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:08:51: STOP_SERVER received, server token: 1437e92b-f88a-49fa-8435-99005278b39a, passed token: 1437e92b-f88a-49fa-8435-99005278b39a
+01/30/25 16:08:51: Socket received request to stop server.
+01/30/25 16:08:51: Dispatch Server: do_await_stop
+01/30/25 16:08:51: SERVER: destructor for server bound to port 60669
+01/30/25 16:09:02: Running xcd server. This server was built by gradle.
+01/30/25 16:09:02: Server was asked to start on port: '49914'
+01/30/25 16:09:02: Server is using token UUID: 'a412649d-e35f-4fc7-a7ca-8e1245b54499'
+01/30/25 16:09:02: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+01/30/25 16:09:02: Attempting to start server on port '49914'
+01/30/25 16:09:02: Running Dispatch Server
+01/30/25 16:09:02: Version 2.2.0
+01/30/25 16:09:04: Dispatch Server: Accepted socket connection from client
+01/30/25 16:09:04: Starting Socket connection
+01/30/25 16:09:04: EXCHANGE_TOKEN received, server token: a412649d-e35f-4fc7-a7ca-8e1245b54499, passed token: a412649d-e35f-4fc7-a7ca-8e1245b54499
+01/30/25 16:09:04: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+01/30/25 16:09:04: SESSION_MGR: creating session with session uuid: '3cc99219-20c4-4811-b025-8f291aed83e1' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:09:04: KERNEL_SVC: creating session with uuid: '3cc99219-20c4-4811-b025-8f291aed83e1' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:09:04: GUIDANCE_SMGR: creating guidance session with uuid: '3cc99219-20c4-4811-b025-8f291aed83e1' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:09:04: SYSTEM_DIAGRAM: creating session with uuid: '3cc99219-20c4-4811-b025-8f291aed83e1' and name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:09:07: Dispatch Server: Accepted socket connection from client
+01/30/25 16:09:07: Starting Socket connection
+01/30/25 16:10:31: SESSION_MGR: closing session for UUID '3cc99219-20c4-4811-b025-8f291aed83e1' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:10:31: KERNEL_SVC: closing session for UUID '3cc99219-20c4-4811-b025-8f291aed83e1' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:10:31: GUIDANCE_SMGR: closing session for UUID '3cc99219-20c4-4811-b025-8f291aed83e1' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:10:31: SYSTEM_DIAGRAM: closing session for UUID '3cc99219-20c4-4811-b025-8f291aed83e1' with name 'vitis-run_compile_fast_keypoint_detection'
+01/30/25 16:10:31: STOP_SERVER received, server token: a412649d-e35f-4fc7-a7ca-8e1245b54499, passed token: a412649d-e35f-4fc7-a7ca-8e1245b54499
+01/30/25 16:10:31: Socket received request to stop server.
+01/30/25 16:10:31: Dispatch Server: do_await_stop
+01/30/25 16:10:31: SERVER: destructor for server bound to port 49914

@@ -1,0 +1,12 @@
+{
+  "name": "fast_keypoint_detection",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "fast_keypoint_detection"
+  },
+  "template": "empty_hls_component"
+}
