@@ -1,38 +1,30 @@
 <design_size title="Design Size Report">
+    <item name="C-Synthesis has not completed!">
+        <item name="Performance"/>
+        <item name="HW Transforms"/>
+    </item>
     <item name="Total Instructions per Compilation Phase">
         <table>
             <keys size="4">Phase, Step, Instructions, Description</keys>
-            <column name="Compile/Link">,   907, After all functions are compiled and linked into a single design</column>
+            <column name="Compile/Link">,  1374, After all functions are compiled and linked into a single design</column>
             <column name="">, , </column>
             <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
-            <column name="">(1) unroll,   428, user unroll pragmas are applied</column>
-            <column name="">(2) simplification,   293, simplification of applied user unroll pragmas</column>
-            <column name="">(3) inline,   287, user inline pragmas are applied</column>
-            <column name="">(4) simplification,   286, simplification of applied user inline pragmas</column>
+            <column name="">(1) unroll,  1570, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  1035, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  1024, user inline pragmas are applied</column>
+            <column name="">(4) simplification,  1022, simplification of applied user inline pragmas</column>
             <column name="">, , </column>
-            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(1) array partition, 1003, user array partition pragmas are applied</column>
-            <column name="">(2) simplification,   931, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
-            <column name="">(3) aggregate/disaggregate ,   931, user struct aggregate/disaggregate pragmas are applied</column>
-            <column name="">(4) array reshape,   931, apply array reshape pragmas</column>
-            <column name="">(5) access patterns,   935, array access pattern optmizations</column>
+            <column name="Array/Struct">, 39049, After user array partition and struct aggregate/disaggregate pragmas are applied</column>
             <column name="">, , </column>
-            <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
-            <column name="">(1) loop simplification,   935, loop and instruction simplification</column>
-            <column name="">(2) parallelization,   935, loops are unrolled or pipelined to meet performance targets</column>
-            <column name="">(3) array partition, 6851, arrays are partitioned to meet performance targets</column>
-            <column name="">(4) simplification, 5549, simplification of design after performance transformations</column>
-            <column name="">, , </column>
+            <column name="Performance">, pending, After transformations are applied to meet performance pragma targets</column>
             <column name="HW Transforms">, , After hardware transfomations</column>
-            <column name="">(1) lowering, 5553, initial conversion to HW specific instructions</column>
-            <column name="">(2) optimizations, 5550, high level synthesis optimizations</column>
         </table>
     </item>
     <item name="Instructions per Function for each Compilation Phase">
         <hiertable>
-            <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
+            <header size="5" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct"/>
             <rows>
-                <row id="0" col0="fast_keypoint_detection" col1="fast_keypoint_detection.cpp:4" col2="907" col3="286" col4="935" col5="5549" col6="5550"/>
+                <row id="0" col0="fast_keypoint_detection" col1="fast_keypoint_detection.cpp:3" col2="1374" col3="1022" col4="39049"/>
             </rows>
             <notes/>
         </hiertable>

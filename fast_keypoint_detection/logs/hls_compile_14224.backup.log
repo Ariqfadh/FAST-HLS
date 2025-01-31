@@ -1,0 +1,129 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=fast_keypoint_detection' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg484-1' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1465] Applying ini 'clock=10ns' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.976 seconds; current allocated memory: 163.328 MB.
+INFO: [HLS 200-10] Analyzing design file 'fast_keypoint_detection.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.746 seconds; current allocated memory: 166.152 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 2,355 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,344 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 923 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 896 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 895 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 16,185 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,418 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,418 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,406 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 22,554 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 22,548 instructions in the design after the 'Performance' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,273 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,270 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,270 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 19,274 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 16,021 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-291] Loop 'ShiftWindowLoop' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:48:30)
+INFO: [HLS 214-291] Loop 'ShiftRowLoop' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:50:16)
+INFO: [HLS 214-291] Loop 'UpdateLineBuffer' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:58:31)
+INFO: [HLS 214-291] Loop 'ContiguousArcLoop' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:74:36)
+INFO: [HLS 214-291] Loop 'UpdateScoreBuffer' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:101:40)
+INFO: [HLS 214-291] Loop 'NMSLoop' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:111:30)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_113_3' is marked as complete unroll implied by the pipeline pragma (fast_keypoint_detection.cpp:113:20)
+INFO: [HLS 214-186] Unrolling loop 'ShiftWindowLoop' (fast_keypoint_detection.cpp:48:30) in function 'fast_keypoint_detection' completely with a factor of 7 (fast_keypoint_detection.cpp:8:0)
+INFO: [HLS 214-186] Unrolling loop 'ShiftRowLoop' (fast_keypoint_detection.cpp:50:16) in function 'fast_keypoint_detection' completely with a factor of 6 (fast_keypoint_detection.cpp:8:0)
+INFO: [HLS 214-186] Unrolling loop 'UpdateLineBuffer' (fast_keypoint_detection.cpp:58:31) in function 'fast_keypoint_detection' completely with a factor of 6 (fast_keypoint_detection.cpp:8:0)
+INFO: [HLS 214-186] Unrolling loop 'ContiguousArcLoop' (fast_keypoint_detection.cpp:74:36) in function 'fast_keypoint_detection' completely with a factor of 32 (fast_keypoint_detection.cpp:8:0)
+INFO: [HLS 214-186] Unrolling loop 'UpdateScoreBuffer' (fast_keypoint_detection.cpp:101:40) in function 'fast_keypoint_detection' completely with a factor of 2 (fast_keypoint_detection.cpp:8:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E11line_buffer': Complete partitioning on dimension 1. (fast_keypoint_detection.cpp:17:0)
+INFO: [HLS 214-248] Applying array_partition to 'window': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (fast_keypoint_detection.cpp:21:13)
+INFO: [HLS 214-248] Applying array_partition to 'score_buffer': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (fast_keypoint_detection.cpp:24:13)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (fast_keypoint_detection.cpp:120:62)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_29_2> at fast_keypoint_detection.cpp:29:26 
+INFO: [HLS 214-437] Automatically disabling loop flattening for loop 'ColLoop'. (fast_keypoint_detection.cpp:35:18)
+WARNING: [HLS 214-187] Cannot unroll loop 'NMSLoop' (fast_keypoint_detection.cpp:111:30) in function 'fast_keypoint_detection' as it has a variable trip count (fast_keypoint_detection.cpp:111:30)
+WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_113_3' (fast_keypoint_detection.cpp:113:20) in function 'fast_keypoint_detection' as it has a variable trip count (fast_keypoint_detection.cpp:113:20)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 2283.6 seconds; current allocated memory: 166.906 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 166.906 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 9 seconds. CPU system time: 0 seconds. Elapsed time: 26.105 seconds; current allocated memory: 233.684 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 11.613 seconds; current allocated memory: 542.832 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fast_keypoint_detection.cpp:29:35) to (fast_keypoint_detection.cpp:29:26) in function 'fast_keypoint_detection'... converting 16 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fast_keypoint_detection.cpp:113:20) to (fast_keypoint_detection.cpp:113:20) in function 'fast_keypoint_detection'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (fast_keypoint_detection.cpp:65:34) to (fast_keypoint_detection.cpp:103:25) in function 'fast_keypoint_detection'... converting 114 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 177 seconds. CPU system time: 2 seconds. Elapsed time: 414.314 seconds; current allocated memory: 949.465 MB.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.1'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.2'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.3'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.4'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.5'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.1'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.2'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.3'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.4'.
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'fast_keypoint_detection(stream&,stream&,ap_uint<11>,ap_uint<11>)line_buffer.5'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 149 seconds. CPU system time: 1 seconds. Elapsed time: 378.232 seconds; current allocated memory: 1.077 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fast_keypoint_detection' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fast_keypoint_detection' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for loop 'ColLoop': contains subloop(s) that are not unrolled or flattened.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 327 seconds. CPU system time: 1 seconds. Elapsed time: 804.664 seconds; current allocated memory: 1.077 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 11 seconds. CPU system time: 0 seconds. Elapsed time: 25.125 seconds; current allocated memory: 1.077 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fast_keypoint_detection' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/input_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/keypoint_stream' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/height' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fast_keypoint_detection/width' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fast_keypoint_detection' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_5_RAM_2P_BRAM_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_5_RAMbkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_4_RAM_2P_BRAM_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_4_RAMcud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_3_RAM_2P_BRAM_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_3_RAMdEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_2_RAM_2P_BRAM_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_2_RAMeOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_1_RAM_2P_BRAM_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_1_RAMfYi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_RAM_2P_BRAM_1R1W' to 'fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_RAM_2g8j' due to the length limit 80
+INFO: [RTGEN 206-100] Bundling port 'height' and 'width' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_2153_11_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_2155_11_8_1_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_11ns_3ns_2_15_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fast_keypoint_detection'.
+INFO: [RTMG 210-278] Implementing memory 'fast_keypoint_detection_fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_5_RAMbkb' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'fast_keypoint_detection_fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_RAM_2g8j' using block RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 17 seconds. CPU system time: 0 seconds. Elapsed time: 39.318 seconds; current allocated memory: 1.077 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 6 seconds. CPU system time: 10 seconds. Elapsed time: 47.334 seconds; current allocated memory: 1.258 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.453 seconds; current allocated memory: 1.258 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fast_keypoint_detection.
+INFO: [VLOG 209-307] Generating Verilog RTL for fast_keypoint_detection.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 140.08 MHz
+INFO: [HLS 200-112] Total CPU user time: 701 seconds. Total CPU system time: 15 seconds. Total elapsed time: 4038.83 seconds; peak allocated memory: 1.258 GB.
+INFO: [v++ 60-791] Total elapsed time: 1h 7m 24s

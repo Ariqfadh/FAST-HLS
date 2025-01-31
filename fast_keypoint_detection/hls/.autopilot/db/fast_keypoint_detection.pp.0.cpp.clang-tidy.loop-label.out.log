@@ -18,18 +18,36 @@ C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detecti
       ^~~
       VITIS_LOOP_1248_1: 
 C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:4052:7: note: FIX-IT applied suggested code changes
-C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5882:2: warning: Added loop label VITIS_LOOP_22_1:   [xilinx-label-all-loops]
- for (int x = 0; x < width; x++) {
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5880:52: error: Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=line_buffer type=RAM_2P impl=BRAM
+                                                   ^
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5889:2: warning: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 7; i++) {
  ^~~
- VITIS_LOOP_22_1: 
-C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5882:2: note: FIX-IT applied suggested code changes
-C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5891:9: warning: Added loop label VITIS_LOOP_31_2:   [xilinx-label-all-loops]
-        for (int x = 3; x < width - 3; x++) {
+ VITIS_LOOP_28_1: 
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5889:2: note: FIX-IT applied suggested code changes
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5890:9: warning: Added loop label VITIS_LOOP_29_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < 7; j++) {
         ^~~
-        VITIS_LOOP_31_2: 
-C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5891:9: note: FIX-IT applied suggested code changes
-C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5897:13: warning: Added loop label VITIS_LOOP_37_3:   [xilinx-label-all-loops]
-            for (int i = 0; i < 16; i++) {
-            ^~~
-            VITIS_LOOP_37_3: 
-C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5897:13: note: FIX-IT applied suggested code changes
+        VITIS_LOOP_29_2: 
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5890:9: note: FIX-IT applied suggested code changes
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5904:2: warning: Added loop label VITIS_LOOP_43_3:   [xilinx-label-all-loops]
+ for (int j = 0; j < (int)width; j++) {
+ ^~~
+ VITIS_LOOP_43_3: 
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5904:2: note: FIX-IT applied suggested code changes
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5916:2: warning: Added loop label VITIS_LOOP_55_4:   [xilinx-label-all-loops]
+ for (int j = 0; j < 6; j++) {
+ ^~~
+ VITIS_LOOP_55_4: 
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5916:2: note: FIX-IT applied suggested code changes
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5940:17: warning: Added loop label VITIS_LOOP_79_5:   [xilinx-label-all-loops]
+                for (int i = 0; i < 2 * 16; i++) {
+                ^~~
+                VITIS_LOOP_79_5: 
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5940:17: note: FIX-IT applied suggested code changes
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5979:2: warning: Added loop label VITIS_LOOP_118_6:   [xilinx-label-all-loops]
+ for (int dx = -1; dx <= 1; dx++) {
+ ^~~
+ VITIS_LOOP_118_6: 
+C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp:5979:2: note: FIX-IT applied suggested code changes

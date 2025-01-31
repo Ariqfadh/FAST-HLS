@@ -37,31 +37,63 @@ Diagnostics:
         Offset:          568018
         Length:          0
         ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      19
+    FilePath:        fast_keypoint_detection.cpp
+    Replacements:    
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_22_1:  '
-    FileOffset:      22
+    Message:         'Added loop label VITIS_LOOP_28_1:  '
+    FileOffset:      28
     FilePath:        fast_keypoint_detection.cpp
     Replacements:    
       - FilePath:        'C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp'
-        Offset:          936978
+        Offset:          937199
         Length:          0
-        ReplacementText: 'VITIS_LOOP_22_1: '
+        ReplacementText: 'VITIS_LOOP_28_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_31_2:  '
-    FileOffset:      31
+    Message:         'Added loop label VITIS_LOOP_29_2:  '
+    FileOffset:      29
     FilePath:        fast_keypoint_detection.cpp
     Replacements:    
       - FilePath:        'C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp'
-        Offset:          937208
+        Offset:          937237
         Length:          0
-        ReplacementText: 'VITIS_LOOP_31_2: '
+        ReplacementText: 'VITIS_LOOP_29_2: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_37_3:  '
-    FileOffset:      37
+    Message:         'Added loop label VITIS_LOOP_43_3:  '
+    FileOffset:      43
     FilePath:        fast_keypoint_detection.cpp
     Replacements:    
       - FilePath:        'C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp'
-        Offset:          937413
+        Offset:          937608
         Length:          0
-        ReplacementText: 'VITIS_LOOP_37_3: '
+        ReplacementText: 'VITIS_LOOP_43_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_55_4:  '
+    FileOffset:      55
+    FilePath:        fast_keypoint_detection.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp'
+        Offset:          937887
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_55_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_5:  '
+    FileOffset:      79
+    FilePath:        fast_keypoint_detection.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp'
+        Offset:          938636
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_6:  '
+    FileOffset:      118
+    FilePath:        fast_keypoint_detection.cpp
+    Replacements:    
+      - FilePath:        'C:\Users\ariqf\Kuliah\KP\Workspace\fast_keypoint_detection\fast_keypoint_detection\hls\.autopilot\db\fast_keypoint_detection.pp.0.cpp'
+        Offset:          940040
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_6: '
 ...

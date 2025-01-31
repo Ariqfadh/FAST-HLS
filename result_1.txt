@@ -1,0 +1,33 @@
+Starting FAST Keypoint Detection Test Bench
+ Test Case: 640x480
+ Processing time: 1614ms
+ Detected keypoints: 62448 (Valid: 62448)
+ ------------------------------------------------
+ Test Case: 320x240
+ Processing time: 320ms
+ Detected keypoints: 15241 (Valid: 15241)
+ ------------------------------------------------
+ Test Case: 100x100
+ Processing time: 37ms
+ Detected keypoints: 1811 (Valid: 1811)
+ ------------------------------------------------
+ Test Case: 640x480
+ Processing time: 1304ms
+ Detected keypoints: 62448 (Valid: 62448)
+ ------------------------------------------------
+ Test Case: 800x600
+ Processing time: 2013ms
+ Detected keypoints: 98064 (Valid: 98064)
+ ------------------------------------------------
+ Running Stress Test (3 consecutive images)...
+ Stress test image 1 - Keypoints detected: 426074
+ Stress test image 2 - Keypoints detected: 426074
+ Stress test image 3 - Keypoints detected: 426074
+ Stress test completed in 28733ms
+ ================================================
+ INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
+ INFO: [SIM 211-1] CSim done with 0 errors.
+ INFO: [SIM 211-3] *************** CSIM finish ***************
+ INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 39.07 seconds; peak allocated memory: 163.410 MB.
+ INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 43s
+ C-simulation finished successfully 

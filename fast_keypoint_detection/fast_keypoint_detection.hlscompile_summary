@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "01/30/25 15:54:37",
- "timestampMillis": "1738227277854",
+ "dateTimestamp": "01/31/25 13:37:17",
+ "timestampMillis": "1738305437010",
  "buildStep": {
-  "cmdId": "f08f5b6f-a8ec-443e-84a3-febc1c8aec5d",
+  "cmdId": "c6e9778e-563f-4c80-a4d2-ec7f56a0617e",
   "name": "v++",
   "logFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\logs\\fast_keypoint_detection.steps.log",
   "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\hls_config.cfg --work_dir fast_keypoint_detection ",
@@ -28,7 +28,7 @@
   "iniFiles": [
    {
     "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\hls_config.cfg",
-    "content": "part=xc7z020clg484-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nclock=10ns\nsyn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/.gitignore\nsyn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp\nsyn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h\ntb.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp\nsyn.top=fast_keypoint_detection"
+    "content": "part=xc7z020clg484-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nclock=10ns\nsyn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp\nsyn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h\ntb.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp\nsyn.top=fast_keypoint_detection"
    }
   ],
   "cwd": "C:\\Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection"
@@ -38,10 +38,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/30/25 15:54:37",
- "timestampMillis": "1738227277855",
+ "dateTimestamp": "01/31/25 13:37:17",
+ "timestampMillis": "1738305437012",
  "status": {
-  "cmdId": "f08f5b6f-a8ec-443e-84a3-febc1c8aec5d",
+  "cmdId": "c6e9778e-563f-4c80-a4d2-ec7f56a0617e",
   "state": "CS_RUNNING"
  }
 }
@@ -49,8 +49,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "01/30/25 15:54:41",
- "timestampMillis": "1738227281416",
+ "dateTimestamp": "01/31/25 13:37:20",
+ "timestampMillis": "1738305440574",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -69,7 +69,6 @@
      "uuid": ""
     },
     "sources": [
-     "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\.gitignore",
      "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection.cpp",
      "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection.h"
     ],
@@ -87,10 +86,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "01/30/25 15:54:41",
- "timestampMillis": "1738227281417",
+ "dateTimestamp": "01/31/25 13:37:20",
+ "timestampMillis": "1738305440576",
  "buildStep": {
-  "cmdId": "faf2bb38-1a39-4c61-891b-67505410c533",
+  "cmdId": "6de0b8c7-e63b-48f0-862e-c5db70a74c7e",
   "name": "",
   "logFile": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls\\hls.log",
   "commandLine": "",
@@ -103,10 +102,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/30/25 15:54:41",
- "timestampMillis": "1738227281418",
+ "dateTimestamp": "01/31/25 13:37:20",
+ "timestampMillis": "1738305440576",
  "status": {
-  "cmdId": "faf2bb38-1a39-4c61-891b-67505410c533",
+  "cmdId": "6de0b8c7-e63b-48f0-862e-c5db70a74c7e",
   "state": "CS_RUNNING"
  }
 }
@@ -114,8 +113,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:54:41",
- "timestampMillis": "1738227281419",
+ "dateTimestamp": "01/31/25 13:37:20",
+ "timestampMillis": "1738305440577",
  "report": {
   "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls\\hls_data.json",
   "name": "",
@@ -128,8 +127,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:54:41",
- "timestampMillis": "1738227281419",
+ "dateTimestamp": "01/31/25 13:37:20",
+ "timestampMillis": "1738305440578",
  "report": {
   "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls\\syn\\report\\csynth.rpt",
   "name": "",
@@ -142,105 +141,13 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:54:41",
- "timestampMillis": "1738227281420",
+ "dateTimestamp": "01/31/25 13:37:20",
+ "timestampMillis": "1738305440579",
  "report": {
   "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls\\syn\\report\\csynth.xml",
   "name": "",
   "fileType": "XML",
   "reportType": "HLS_SYNTHESIS",
-  "cmdId": ""
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444375",
- "report": {
-  "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls",
-  "name": "",
-  "fileType": "DIR",
-  "reportType": "HLS_DATAFLOW",
-  "cmdId": ""
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444376",
- "report": {
-  "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls",
-  "name": "",
-  "fileType": "DIR",
-  "reportType": "HLS_FUNCTION_CALL_GRAPH",
-  "cmdId": ""
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444377",
- "report": {
-  "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\hls",
-  "name": "",
-  "fileType": "DIR",
-  "reportType": "HLS_SCHEDULE",
-  "cmdId": ""
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Status",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444378",
- "status": {
-  "cmdId": "faf2bb38-1a39-4c61-891b-67505410c533",
-  "state": "CS_PASSED"
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Status",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444597",
- "status": {
-  "cmdId": "f08f5b6f-a8ec-443e-84a3-febc1c8aec5d",
-  "state": "CS_PASSED"
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444614",
- "report": {
-  "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\reports\\v++_compile_fast_keypoint_detection_guidance.html",
-  "name": "",
-  "fileType": "HTML",
-  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
-  "cmdId": ""
- }
-}
-</ENTRY>
-<ENTRY>
-{
- "type": "ET_Report",
- "dateTimestamp": "01/30/25 15:57:24",
- "timestampMillis": "1738227444615",
- "report": {
-  "path": "C:/Users\\ariqf\\Kuliah\\KP\\Workspace\\fast_keypoint_detection\\fast_keypoint_detection\\reports\\.db\\v++_compile_fast_keypoint_detection_guidance.pb3",
-  "name": "",
-  "fileType": "BINARY_PROTOBUF",
-  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
   "cmdId": ""
  }
 }

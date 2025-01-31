@@ -3,15 +3,13 @@ INFO: [HLS 200-2005] Using work_dir C:/Users/ariqf/Kuliah/KP/Workspace/fast_keyp
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/.gitignore' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(8)
-INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/.gitignore' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(8)
 INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(9)
 INFO: [HLS 200-10] Adding design file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection.h' to the project
-INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(10)
 INFO: [HLS 200-10] Adding test bench file 'C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection_tb.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.top=fast_keypoint_detection' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'syn.top=fast_keypoint_detection' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(11)
 INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/hls_config.cfg(4)
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
@@ -29,6 +27,47 @@ INFO: [COSIM 212-14] Instrumenting C test bench ...
    Compiling apatb_fast_keypoint_detection_ir.ll
    Generating cosim.tv.exe
 INFO: [COSIM 212-302] Starting C TB testing ... 
+Starting FAST Keypoint Detection Test Bench
+================================================
+
+Test Case: 640x480
+Processing time: 1446ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 320x240
+Processing time: 346ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 100x100
+Processing time: 40ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 640x480
+Processing time: 1412ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 800x600
+Processing time: 2187ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Running Stress Test (10 consecutive images)...
+Stress test image 1 - Keypoints detected: 0
+Stress test image 2 - Keypoints detected: 0
+Stress test image 3 - Keypoints detected: 0
+Stress test image 4 - Keypoints detected: 0
+Stress test image 5 - Keypoints detected: 0
+Stress test image 6 - Keypoints detected: 0
+Stress test image 7 - Keypoints detected: 0
+Stress test image 8 - Keypoints detected: 0
+Stress test image 9 - Keypoints detected: 0
+Stress test image 10 - Keypoints detected: 0
+Stress test completed in 106663ms
+================================================
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
 INFO: [COSIM 212-333] Generating C post check test bench ...
 INFO: [COSIM 212-12] Generating RTL test bench ...
@@ -64,29 +103,21 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Work
 INFO: [VRFC 10-311] analyzing module fast_keypoint_detection
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_control_s_axi.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_control_s_axi
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_fast_keypoint_detection_Pipeline_image_load_VITIS_LOOP_22_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_fast_keypoint_detection_Pipeline_image_load_VITIS_LOOP_22_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_fast_keypoint_detection_Pipeline_keypoint_detection_VITIS_LOOP_31_2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_fast_keypoint_detection_Pipeline_keypoint_detection_VITIS_LOOP_31_2
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_flow_control_loop_pipe_sequential_init
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_mul_11ns_11ns_22_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_mul_11ns_11ns_22_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_mul_11ns_13ns_23_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_mul_11ns_13ns_23_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_mul_12ns_12ns_24_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_mul_12ns_12ns_24_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbkb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_p_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8Keypoinbkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_5_RAMbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_5_RAMbkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_RAM_2g8j.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_fast_keypoint_detection_stream_stream_ap_uint_11_ap_uint_11_line_buffer_RAM_2g8j
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_regslice_both.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_regslice_both
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_sparsemux_15_3_8_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_sparsemux_15_3_8_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_sparsemux_33_4_8_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_sparsemux_33_4_8_1_1
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_urem_11ns_4ns_3_15_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_urem_11ns_4ns_3_15_1_divider
-INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_urem_11ns_4ns_3_15_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_sparsemux_2153_11_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_sparsemux_2153_11_8_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_sparsemux_2155_11_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_sparsemux_2155_11_8_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_sparsemux_7_2_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_sparsemux_7_2_8_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection_urem_11ns_3ns_2_15_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_urem_11ns_3ns_2_15_1_divider
+INFO: [VRFC 10-311] analyzing module fast_keypoint_detection_urem_11ns_3ns_2_15_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dataflow_monitor
 Starting static elaboration
@@ -96,18 +127,14 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
-Compiling module xil_defaultlib.fast_keypoint_detection_p_ZZ23fa...
-Compiling module xil_defaultlib.fast_keypoint_detection_urem_11n...
-Compiling module xil_defaultlib.fast_keypoint_detection_urem_11n...
-Compiling module xil_defaultlib.fast_keypoint_detection_mul_11ns...
-Compiling module xil_defaultlib.fast_keypoint_detection_flow_con...
 Compiling module xil_defaultlib.fast_keypoint_detection_fast_key...
-Compiling module xil_defaultlib.fast_keypoint_detection_sparsemu...
-Compiling module xil_defaultlib.fast_keypoint_detection_sparsemu...
 Compiling module xil_defaultlib.fast_keypoint_detection_fast_key...
 Compiling module xil_defaultlib.fast_keypoint_detection_control_...
-Compiling module xil_defaultlib.fast_keypoint_detection_mul_11ns...
-Compiling module xil_defaultlib.fast_keypoint_detection_mul_12ns...
+Compiling module xil_defaultlib.fast_keypoint_detection_sparsemu...
+Compiling module xil_defaultlib.fast_keypoint_detection_sparsemu...
+Compiling module xil_defaultlib.fast_keypoint_detection_urem_11n...
+Compiling module xil_defaultlib.fast_keypoint_detection_urem_11n...
+Compiling module xil_defaultlib.fast_keypoint_detection_sparsemu...
 Compiling module xil_defaultlib.fast_keypoint_detection_regslice...
 Compiling module xil_defaultlib.fast_keypoint_detection_regslice...
 Compiling module xil_defaultlib.fast_keypoint_detection
@@ -119,7 +146,7 @@ Compiling module xil_defaultlib.AESL_axi_slave_control
 Compiling module xil_defaultlib.AESL_deadlock_idx0_monitor
 Compiling module xil_defaultlib.AESL_deadlock_kernel_monitor_top...
 Compiling module xil_defaultlib.nodf_module_intf_default
-Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=51)
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_fast_keypoint_detection_to...
 Compiling module work.glbl
@@ -129,7 +156,7 @@ Built simulation snapshot fast_keypoint_detection
   **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
   **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
   **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-  **** Start of session at: Thu Jan 23 09:29:16 2025
+  **** Start of session at: Fri Jan 31 10:44:39 2025
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -144,17 +171,22 @@ source fast_keypoint_detection.tcl
 //
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
-// RTL Simulation : 0 / 1 [0.00%] @ "125000"
-// RTL Simulation : 1 / 1 [100.00%] @ "41293035000"
-////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 41293095 ns : File "C:/Users/ariqf/Kuliah/KP/Workspace/fast_keypoint_detection/fast_keypoint_detection/hls/sim/verilog/fast_keypoint_detection.autotb.v" Line 422
-run: Time (s): cpu = 00:00:01 ; elapsed = 00:07:07 . Memory (MB): peak = 199.078 ; gain = 0.000
-## quit
-INFO: xsimkernel Simulation Memory Usage: 296736 KB (Peak: 296736 KB), Simulation CPU Usage: 150717 ms
-INFO: [Common 17-206] Exiting xsim at Thu Jan 23 09:36:31 2025...
-INFO: [COSIM 212-316] Starting C post checking ...
-INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
-INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
-INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 0 seconds. Total elapsed time: 489.98 seconds; peak allocated memory: 234.910 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 8m 14s
+// RTL Simulation : 0 / 15 [n/a] @ "125000"
+// RTL Simulation : 0 / 15 [n/a] @ "100000145000"
+// RTL Simulation : 0 / 15 [n/a] @ "200000155000"
+// RTL Simulation : 0 / 15 [n/a] @ "300000165000"
+// RTL Simulation : 0 / 15 [n/a] @ "400000175000"
+// RTL Simulation : 0 / 15 [n/a] @ "500000185000"
+// RTL Simulation : 0 / 15 [n/a] @ "600000195000"
+// RTL Simulation : 0 / 15 [n/a] @ "700000205000"
+// RTL Simulation : 0 / 15 [n/a] @ "800000215000"
+// RTL Simulation : 0 / 15 [n/a] @ "900000225000"
+// RTL Simulation : 0 / 15 [n/a] @ "1000000235000"
+// RTL Simulation : 0 / 15 [n/a] @ "1100000245000"
+// RTL Simulation : 0 / 15 [n/a] @ "1200000255000"
+// RTL Simulation : 0 / 15 [n/a] @ "1300000265000"
+// RTL Simulation : 0 / 15 [n/a] @ "1400000275000"
+// RTL Simulation : 0 / 15 [n/a] @ "1500000285000"
+// RTL Simulation : 0 / 15 [n/a] @ "1600000295000"
+// RTL Simulation : 0 / 15 [n/a] @ "1700000305000"
+// RTL Simulation : 0 / 15 [n/a] @ "1800000315000"

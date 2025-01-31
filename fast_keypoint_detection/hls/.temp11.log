@@ -1,0 +1,94 @@
+Starting FAST Keypoint Detection Test Bench
+================================================
+
+Test Case: 640x480
+Processing time: 1818ms
+Detected keypoints: 225859 (Valid: 225859)
+------------------------------------------------
+
+Test Case: 320x240
+Processing time: 470ms
+Detected keypoints: 55205 (Valid: 55205)
+------------------------------------------------
+
+Test Case: 100x100
+Processing time: 54ms
+Detected keypoints: 6673 (Valid: 6673)
+------------------------------------------------
+
+Test Case: 640x480
+Processing time: 1767ms
+Detected keypoints: 225859 (Valid: 225859)
+------------------------------------------------
+
+Test Case: 800x600
+Processing time: 2801ms
+Detected keypoints: 354887 (Valid: 354887)
+------------------------------------------------
+
+Running Stress Test (10 consecutive images)...
+Stress test image 1 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>5' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 2 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>6' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 3 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>7' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 4 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>8' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 5 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>9' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 6 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>10' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 7 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>11' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 8 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>12' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 9 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>13' contains leftover data, which may result in RTL simulation hanging.
+Stress test image 10 - Keypoints detected: 1546672
+WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>14' contains leftover data, which may result in RTL simulation hanging.
+Stress test completed in 181380ms
+================================================
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
+Starting FAST Keypoint Detection Test Bench
+================================================
+
+Test Case: 640x480
+Processing time: 1446ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 320x240
+Processing time: 346ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 100x100
+Processing time: 40ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 640x480
+Processing time: 1412ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Test Case: 800x600
+Processing time: 2187ms
+Detected keypoints: 0 (Valid: 0)
+------------------------------------------------
+
+Running Stress Test (10 consecutive images)...
+Stress test image 1 - Keypoints detected: 0
+Stress test image 2 - Keypoints detected: 0
+Stress test image 3 - Keypoints detected: 0
+Stress test image 4 - Keypoints detected: 0
+Stress test image 5 - Keypoints detected: 0
+Stress test image 6 - Keypoints detected: 0
+Stress test image 7 - Keypoints detected: 0
+Stress test image 8 - Keypoints detected: 0
+Stress test image 9 - Keypoints detected: 0
+Stress test image 10 - Keypoints detected: 0
+Stress test completed in 106663ms
+================================================
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600

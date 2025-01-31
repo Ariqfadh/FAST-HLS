@@ -1,57 +1,40 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch CLANG as the compiler.
-   Compiling ../../../../fast_keypoint_detection_tb.cpp in debug mode
+   Compiling ../../../../fast_keypoint_detection.cpp in debug mode
    Generating csim.exe
 Starting FAST Keypoint Detection Test Bench
 ================================================
 
 Test Case: 640x480
-Processing time: 1050ms
-Detected keypoints: 225859 (Valid: 225859)
+Processing time: 1614ms
+Detected keypoints: 62448 (Valid: 62448)
 ------------------------------------------------
 
 Test Case: 320x240
-Processing time: 266ms
-Detected keypoints: 55205 (Valid: 55205)
+Processing time: 320ms
+Detected keypoints: 15241 (Valid: 15241)
 ------------------------------------------------
 
 Test Case: 100x100
-Processing time: 29ms
-Detected keypoints: 6673 (Valid: 6673)
+Processing time: 37ms
+Detected keypoints: 1811 (Valid: 1811)
 ------------------------------------------------
 
 Test Case: 640x480
-Processing time: 1029ms
-Detected keypoints: 225859 (Valid: 225859)
+Processing time: 1304ms
+Detected keypoints: 62448 (Valid: 62448)
 ------------------------------------------------
 
 Test Case: 800x600
-Processing time: 1620ms
-Detected keypoints: 354887 (Valid: 354887)
+Processing time: 2013ms
+Detected keypoints: 98064 (Valid: 98064)
 ------------------------------------------------
 
-Running Stress Test (10 consecutive images)...
-Stress test image 1 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>5' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 2 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>6' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 3 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>7' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 4 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>8' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 5 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>9' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 6 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>10' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 7 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>11' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 8 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>12' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 9 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>13' contains leftover data, which may result in RTL simulation hanging.
-Stress test image 10 - Keypoints detected: 1546672
-WARNING [HLS SIM]: hls::stream 'hls::stream<Keypoint, 0>14' contains leftover data, which may result in RTL simulation hanging.
-Stress test completed in 75532ms
+Running Stress Test (3 consecutive images)...
+Stress test image 1 - Keypoints detected: 426074
+Stress test image 2 - Keypoints detected: 426074
+Stress test image 3 - Keypoints detected: 426074
+Stress test completed in 28733ms
 ================================================
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 2073600
 INFO: [SIM 1] CSim done with 0 errors.

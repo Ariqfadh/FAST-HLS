@@ -2,68 +2,62 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=fast_keypoint_detection" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:10:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:9:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=input_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:11:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:10:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=keypoint_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:12:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:11:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=height bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:13:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:12:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=width bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:14:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:13:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:17:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=image dim=2 type=cyclic factor=16" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=line_buffer dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:21:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=1080" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=line_buffer type=RAM_2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:23:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=1920" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=window complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:24:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=score_buffer complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:36:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=line_buffer inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:38:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:42:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:37:30" msg_body="Loop 'VITIS_LOOP_37_3' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_37_3"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:9:0" msg_body="Unrolling loop 'VITIS_LOOP_37_3' (fast_keypoint_detection.cpp:37:30) in function 'fast_keypoint_detection' completely with a factor of 16">
-        <args Factor="16" LoopLoc="fast_keypoint_detection.cpp:37:30" LoopName="VITIS_LOOP_37_3"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:56:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:16:0" msg_body="Applying array_partition to '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image': Cyclic partitioning with factor 16 on dimension 2.">
-        <args Dim="2" Factor="16" Mode="Cyclic" UOName="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:64:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array 'fast_keypoint_detection(hls::stream&lt;ap_uint&lt;8&gt;, 0&gt;&amp;, hls::stream&lt;Keypoint, 0&gt;&amp;, ap_uint&lt;11&gt;, ap_uint&lt;11&gt;)::image' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="fast_keypoint_detection(hls::stream&lt;ap_uint&lt;8&gt;, 0&gt;&amp;, hls::stream&lt;Keypoint, 0&gt;&amp;, ap_uint&lt;11&gt;, ap_uint&lt;11&gt;)::image" PragmaType="array_partition"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_10' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_10" PragmaType="array_partition"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:107:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_11' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_11" PragmaType="array_partition"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_12' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_12" PragmaType="array_partition"/>
-    </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_13' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_13" PragmaType="array_partition"/>
-    </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_14' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_14" PragmaType="array_partition"/>
-    </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="fast_keypoint_detection.cpp:32:9" msg_body="Inferring pragma 'array_partition type=cyclic factor=7 dim=1' for array '_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_15' due to pipeline pragma">
-        <args Dim="1" Factor="7" Mode="cyclic" Name="_ZZ23fast_keypoint_detectionRN3hls6streamI7ap_uintILi8EELi0EEERNS0_I8KeypointLi0EEES1_ILi11EES8_E5image_15" PragmaType="array_partition"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="fast_keypoint_detection.cpp:119:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_keypoint_detection" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
 </xilinx:hls_fe_msgs>
 

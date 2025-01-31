@@ -1,19 +1,19 @@
 {
   "0": {
-    "basicblocks": 38,
+    "basicblocks": 125,
     "calls": "",
     "file": "fast_keypoint_detection.cpp",
-    "fileloc": 4,
-    "instructions": 201,
+    "fileloc": 3,
+    "instructions": 505,
     "loads": {
-      "G": 4,
-      "L": 3
+      "G": 2,
+      "L": 15
     },
     "name": "fast_keypoint_detection",
     "stores": {
-      "G": 1,
-      "L": 6
+      "G": 2,
+      "L": 15
     },
-    "total_instructions": 907
+    "total_instructions": 1374
   }
 }
