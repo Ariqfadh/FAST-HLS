@@ -3,6 +3,7 @@
 
 #include <hls_stream.h>
 #include <ap_int.h>
+#include <iostream>
 
 #define MAX_WIDTH 1080
 #define MAX_HEIGHT 1920
